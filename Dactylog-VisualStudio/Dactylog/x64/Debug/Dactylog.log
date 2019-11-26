@@ -1,1 +1,20 @@
-﻿C:\Programmes\Visual Studio 2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(379,5): error MSB8020: The build tools for Visual Studio 2017 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install Visual Studio 2017 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  affichage_et_clavier.c
+  dactylog.c
+  gestion_fichier.c
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(223,24): warning C4133: '=': incompatible types - from 'char *' to 'FILE *'
+  gestion_modes.c
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(230,23): error C2106: '=': left operand must be l-value
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(111,9): warning C4101: 'key_type': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(110,9): warning C4101: 'highlight': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(138,9): warning C4101: 'key_type': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(139,9): warning C4101: 'highlight': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(198,9): warning C4101: 'key_type': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(199,9): warning C4101: 'key_code': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(222,9): warning C4101: 'key_type': unreferenced local variable
+  gestion_statistiques.c
+  util.c
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(225,10): warning C4101: 'theorie_tab': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(58,9): warning C4101: 'lm': unreferenced local variable
+  Generating Code...
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(57,9): warning C4101: 'i': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(29): warning C4716: 'rand_entre': must return a value
