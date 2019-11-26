@@ -75,5 +75,7 @@ int generer_texte_aleatoire(int n, char t[], char l[],int nl, char s[], int ns, 
 */
 void initialiser_tableau_entier(int tab[],int taille, int val){
 
+	printf("bobine");
+
 }
 
