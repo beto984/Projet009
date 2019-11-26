@@ -1,0 +1,18 @@
+﻿  affichage_et_clavier.c
+  dactylog.c
+  gestion_fichier.c
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_fichier.c(220): warning C4101: 'tmp' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_fichier.c(219): warning C4101: 'file_ptr' : variable locale non référencée
+  gestion_modes.c
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(111): warning C4101: 'key_type' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(110): warning C4101: 'highlight' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(138): warning C4101: 'key_type' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(139): warning C4101: 'highlight' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(198): warning C4101: 'key_type' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(199): warning C4101: 'key_code' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(222): warning C4101: 'key_type' : variable locale non référencée
+c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - visualstudio\dactylog\dactylog\gestion_modes.c(225): warning C4101: 'theorie_tab' : variable locale non référencée
+  gestion_statistiques.c
+  util.c
+  Génération de code en cours...
+  Dactylog.vcxproj -> C:\Users\dmarche\Desktop\Dactylog\ProjetsFournis\Dactylog - VisualStudio\Dactylog\Debug\Dactylog.exe

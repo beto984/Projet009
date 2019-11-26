@@ -1,0 +1,150 @@
+# fichier définissant les exercices pour un clavier (pavé) numérique
+# les lignes commencant par # sont ignorées
+# les lignes commencant par * marque le début d'un niveau
+# les lignes commencant par un <Saut de ligne> sont ignorées
+# il faut donc éviter * ou # au début d'une ligne avec des données utiles
+
+*EXERCICE 0: Configuration du clavier - theorie 
+La touche <NUMLOCK> doit etre active
+
+#------------------------------------------------------------------
+
+*EXERCICE 1: Barre d'espace - theorie
+La barre d'espace est actionnee avec le pouce gauche
+
+*EXERCICE 2: chiffres - theorie
+Placer l'index-majeur-annulaire de la main droite sur les touche 1-2-3 
+ou 1-5-3 du clavier numerique 
+
+#------------------------------------------------------------------
+
+*EXERCICE 3: chiffres 14 - pratique
+#chiffres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+2:14
+
+#------------------------------------------------------------------
+
+*EXERCICE 4: chiffres 147 - theorie
+L'index se deplace pour atteindre les chiffre 1-4-7
+et revient toujours a sa position initiale (1)
+  
+*EXERCICE 5: chiffres 147 - pratique
+#chiffres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+3:147
+
+#------------------------------------------------------------------
+
+*EXERCICE 6: chiffres 0147 - theorie
+L'index se deplace pour atteindre les chiffre 0-1-4-7
+et revient toujours a sa position initiale (1)
+
+*EXERCICE 7: chiffres 0147 - pratique
+#lettres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+4:0147
+
+#------------------------------------------------------------------
+
+*EXERCICE 8: chiffres 25 - theorie
+Le majeur se deplace pour atteindre les chiffre 2-5
+et revient toujours a sa position initiale (2 ou 5 selon preference)
+
+*EXERCICE 9: chiffres 25 - pratique
+#lettres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+2:25
+
+#------------------------------------------------------------------
+
+*EXERCICE 10: chiffres 258 - theorie
+Le majeur se deplace pour atteindre les chiffre 2-5-8
+et revient toujours a sa position initiale (2 ou 5 selon preference)
+
+*EXERCICE 11: chiffres 258 - pratique
+#chiffres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+3:258
+
+
+#------------------------------------------------------------------
+
+*EXERCICE 12: chiffres 36 - theorie
+Le majeur se deplace pour atteindre les chiffre 3-6
+et revient toujours a sa position initiale (3)
+
+*EXERCICE 13: chiffres 36 - pratique
+#chiffres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+2:36
+
+#------------------------------------------------------------------
+
+*EXERCICE 14: chiffres 369 - theorie
+Le majeur se deplace pour atteindre les chiffre 3-6-9
+et revient toujours a sa position initiale (3)
+
+*EXERCICE 15: chiffres 369 - pratique
+#chiffres par mot
+2-4
+#séparateur de mot	
+1: 
+#chiffres 
+3:369
+
+#------------------------------------------------------------------
+
+*EXERCICE 16: chiffres 369. - theorie
+Le majeur se deplace pour atteindre les chiffre 3-6-9-.
+et revient toujours a sa position initiale (3)
+
+*EXERCICE 17: chiffres 369. - pratique
+#chiffres par mot
+2-4
+#séparateur de mot	
+2: .
+#chiffres 
+3:369
+
+#------------------------------------------------------------------
+
+*EXERCICE 18: Tous les symboles numeriques - theorie
+Placer l'index-majeur-annulaire de la main droite sur les touche 1-2-3 
+ou 1-5-3 du clavier numerique
+
+*EXERCICE 19: Tous les symboles numeriques - pratique
+#symboles par mot
+2-4
+#séparateur de mot	
+2: . 
+#symboles
+10:0123456789
+
+#------------------------------------------------------------------
+
+*EXERCICE 20: conclusion - theorie
+Bravo! Vous avez complete tous les niveaux du clavier numerique!
+
+##	Fin du fichier
+
+
+
