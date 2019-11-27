@@ -1,1 +1,7 @@
-﻿C:\Programmes\Visual Studio 2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(379,5): error MSB8020: The build tools for Visual Studio 2017 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install Visual Studio 2017 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  util.c
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(32,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(66,6): warning C4101: 'lm': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(104,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(29): warning C4716: 'rand_entre': must return a value
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(39): warning C4716: 'test_rand_entre': must return a value
+  Dactylog.vcxproj -> C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe

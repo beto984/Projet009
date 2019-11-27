@@ -215,27 +215,48 @@ int charger_exercice_theorique(char clavier_tab[][MAX_CAR], int stat_tab[],char 
     Paramètres modifiés: item_tab
 ----------------------------------------------------------
 */
-int charger_item_etoile_fichier(char item_tab[][MAX_CAR],char *nomFichier){
-        FILE *file_ptr;     // pointeur au fichier
-        char tmp[MAX_CAR];  // chaine temporaire pour les lectures du fichier
-		int nb=-1;          // nombre de lignes chargées dans le tableau
+int charger_item_etoile_fichier(char item_tab[][MAX_CAR], char* nomFichier) {
+	FILE* file_ptr;     // pointeur au fichier
+	char tmp[MAX_CAR];  // chaine temporaire pour les lectures du fichier
+	int nb = -1;          // nombre de lignes chargées dans le tableau
+	short fin = FAUX;    // indicateur d'atteinte de fin du fichier
 
-		file_ptr = nomFichier;
 
-		while (!feof(file_ptr))
-		{
-			fgets(tmp, MAX_CAR, file_ptr);
-			if (tmp[0] == '*') {
-				for (int i = 0;i < MAX_CAR;i++) {
-					item_tab[i] = tmp;
-				}
-			}
+	// ouvrir le fichier d'un clavier contenant les différents exercices
+	file_ptr = fopen(nomFichier, "r");
+
+	// si le fichier n'a pu être ouvert
+	if (file_ptr == NULL) {
+		return -1;
+	}
+
+	// lire des lignes dans le fichier en ne considérant que celle qui commence par *
+	// jusqu'à atteindre l'exercice voulu
+	do {
+
+		if (fgets(tmp, MAX_CAR, file_ptr)) {
+			printf("%c\n", tmp[0]);
+		}
+		else {
+			fin = VRAI;
 		}
 
-		// renvoyer le nombre de lignes ajoutées au tableau
-		return  nb;
-}
+	} while (!fin);
 
+
+	fclose(file_ptr);
+
+	// renvoyer le nombre de lignes ajoutées au tableau
+	return  nb;
+}
+int test_charger_item_etoile_fichier() {
+
+	char item_tab[10][MAX_CAR];
+	char* nomFichier = "clavier.lst";
+
+	charger_item_etoile_fichier(item_tab, nomFichier);
+
+}
 /*
 ----------------------------------------------------------
     Fonction: determiner_type_exercice

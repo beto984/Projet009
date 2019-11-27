@@ -27,7 +27,16 @@ int rand_entre(int min, int max){
 	random= (rand() % (max - min + 1)) + min;
 
 }
+int test_rand_entre() {
 
+	srand(time(0));
+
+	for (int i = 0; i < 25; i++) {
+		printf("rand_entre(50,59):\n");
+		printf("%d\n\n", rand_entre(50, 59));
+	}
+
+}
 /*
 ----------------------------------------------------------
     Fonction: generer_texte_aleatoire
@@ -52,13 +61,59 @@ int rand_entre(int min, int max){
     Retour: renvoie le nombre de mot.
 ----------------------------------------------------------
 */
+int generer_texte_aleatoire(int n, char t[], char l[], int nl, char s[], int ns, int lmin, int lmax) {
+	int i;      // itérateur
+	int lm;     // longueur du mot
+	int nm = 0;   // nombre de mot
 
-int generer_texte_aleatoire(int n, char t[], char l[],int nl, char s[], int ns, int lmin, int lmax){
-    int i;      // itérateur
-    int lm;     // longueur du mot
-    int nm=0;   // nombre de mot
 
-    return nm;
+	// tire une longueur de mot aléatoire
+
+	nm++;
+
+
+	for (i = 0; i < n; i++) {
+
+		// si toutes les lettres du mots ne sont pas placé
+
+			// ajoute une lettre aléatoire
+		int idx_alea = rand_entre(0, nl - 1);
+		t[i] = l[idx_alea];
+
+		// sinon, 
+
+			// ajoute un separateur
+
+			// tire une nouvelle longueur de mot
+		nm++;
+
+	}
+
+	return nm;
+}
+
+int test_genere_texte_aleatoire() {
+
+	int resultat = 0;
+	int taille_chaine = 10;
+	char chaine_caractere[10] = { ' ' };
+
+	int taille_lettre_permise = 3;
+	char lettre_permise[3] = { 'a','k','z' };
+
+	srand(time(0));
+
+	resultat = generer_texte_aleatoire(taille_chaine, chaine_caractere,
+		lettre_permise, taille_lettre_permise,
+		NULL, 0, 0, 0);
+
+	for (int i = 0; i < 10; i++) {
+		printf("%c", chaine_caractere[i]);
+	}
+
+
+	return EXIT_SUCCESS;
+
 }
 /*
 ----------------------------------------------------------
