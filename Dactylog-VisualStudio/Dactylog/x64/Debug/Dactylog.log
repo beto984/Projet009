@@ -1,28 +1,8 @@
 ﻿  affichage_et_clavier.c
   dactylog.c
   gestion_fichier.c
-<<<<<<< HEAD
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(223,24): warning C4133: '=': incompatible types - from 'char *' to 'FILE *'
   gestion_modes.c
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(230,23): error C2106: '=': left operand must be l-value
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(111,9): warning C4101: 'key_type': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(110,9): warning C4101: 'highlight': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(138,9): warning C4101: 'key_type': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(139,9): warning C4101: 'highlight': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(198,9): warning C4101: 'key_type': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(199,9): warning C4101: 'key_code': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(222,9): warning C4101: 'key_type': unreferenced local variable
-  gestion_statistiques.c
-  util.c
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(225,10): warning C4101: 'theorie_tab': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(58,9): warning C4101: 'lm': unreferenced local variable
-  Generating Code...
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(57,9): warning C4101: 'i': unreferenced local variable
-C:\Users\15142\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(29): warning C4716: 'rand_entre': must return a value
-=======
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(223,24): warning C4133: '=': incompatible types - from 'char *' to 'FILE *'
-  gestion_modes.c
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(230,23): error C2106: '=': left operand must be l-value
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\dactylog.c(62,24): warning C4013: 'test_rand_entre' undefined; assuming extern returning int
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(111,9): warning C4101: 'key_type': unreferenced local variable
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(110,9): warning C4101: 'highlight': unreferenced local variable
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(138,9): warning C4101: 'key_type': unreferenced local variable
@@ -33,8 +13,11 @@ C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Da
   gestion_statistiques.c
   util.c
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(225,10): warning C4101: 'theorie_tab': unreferenced local variable
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(58,9): warning C4101: 'lm': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(32,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(66,6): warning C4101: 'lm': unreferenced local variable
   Generating Code...
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(57,9): warning C4101: 'i': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(104,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(29): warning C4716: 'rand_entre': must return a value
->>>>>>> master
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(39): warning C4716: 'test_rand_entre': must return a value
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(259): warning C4716: 'test_charger_item_etoile_fichier': must return a value
+curses\addch.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

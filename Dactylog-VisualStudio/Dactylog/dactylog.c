@@ -23,7 +23,7 @@
 
 
 // programme principal de gestion de la machine à états (mode)
-int main(void)
+int programme_principal(void)
 {
 
     WINDOW *fenetre[NB_ZONE];       // référence aux fenêtres "graphiques"
@@ -57,6 +57,13 @@ int main(void)
     return EXIT_SUCCESS;
 }
 
+int main() {
+
+	//return test_rand_entre();
+	return test_genere_texte_aleatoire();
+	//return test_charger_item_etoile_fichier();
+	//return programme_principal();
+}
 
 
 
