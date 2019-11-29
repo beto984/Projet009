@@ -1,2 +1,3 @@
 ﻿  dactylog.c
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\dactylog.c(64,36): warning C4013: 'test_genere_texte_aleatoire' undefined; assuming extern returning int
   Dactylog.vcxproj -> C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe

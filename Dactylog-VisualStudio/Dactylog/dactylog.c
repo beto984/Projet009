@@ -49,6 +49,7 @@ int programme_principal(void)
                 mode=MODE_MENU_PRINCIPAL;
                 break;
             case MODE_MENU_PRINCIPAL:
+				menu_principal(fenetre, menu_tab, nb_menu, clavier_tab, stat_tab);
                 break;
         }
     }while(!fin);
@@ -57,20 +58,13 @@ int programme_principal(void)
     return EXIT_SUCCESS;
 }
 
-int test() {
-
-	printf("nigger");
-
-	return 0;
-}
 
 int main() {
 
 	//return test_rand_entre();
 	//return test_genere_texte_aleatoire();
 	//return test_charger_item_etoile_fichier();
-	//return programme_principal();
-	return test();
+	return programme_principal();
 }
 
 
