@@ -60,6 +60,8 @@ int programme_principal(void)
 int test() {
 
 	printf("nigger");
+
+	return 0;
 }
 
 int main() {
