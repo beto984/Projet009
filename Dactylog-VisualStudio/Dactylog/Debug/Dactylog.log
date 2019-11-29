@@ -1,7 +1,10 @@
-﻿  util.c
+﻿  dactylog.c
+  util.c
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(32,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(66,6): warning C4101: 'lm': unreferenced local variable
+  Generating Code...
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(104,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(29): warning C4716: 'rand_entre': must return a value
 C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(39): warning C4716: 'test_rand_entre': must return a value
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\dactylog.c(63): warning C4716: 'test': must return a value
   Dactylog.vcxproj -> C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe

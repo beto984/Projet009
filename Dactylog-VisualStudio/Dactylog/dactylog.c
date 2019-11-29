@@ -57,12 +57,18 @@ int programme_principal(void)
     return EXIT_SUCCESS;
 }
 
+int test() {
+
+	printf("nigger");
+}
+
 int main() {
 
 	//return test_rand_entre();
-	return test_genere_texte_aleatoire();
+	//return test_genere_texte_aleatoire();
 	//return test_charger_item_etoile_fichier();
 	//return programme_principal();
+	return test();
 }
 
 
