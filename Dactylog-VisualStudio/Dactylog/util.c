@@ -26,7 +26,9 @@ int rand_entre(int min, int max){
 
 	random= (rand() % (max - min + 1)) + min;
 
+	return random;
 }
+
 int test_rand_entre() {
 
 	srand(time(0));
@@ -36,6 +38,7 @@ int test_rand_entre() {
 		printf("%d\n\n", rand_entre(50, 59));
 	}
 
+	system("pause");
 }
 /*
 ----------------------------------------------------------
@@ -108,9 +111,10 @@ int test_genere_texte_aleatoire() {
 		NULL, 0, 0, 0);
 
 	for (int i = 0; i < 10; i++) {
-		printf("%c", chaine_caractere[i]);
+		printf("%c\n", chaine_caractere[i]);
 	}
 
+	system("pause");
 
 	return EXIT_SUCCESS;
 

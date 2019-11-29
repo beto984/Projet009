@@ -112,6 +112,37 @@ int choix_clavier(WINDOW* fenetre[],char clavier_tab[][MAX_CAR],int stat_tab[],c
     int mode_suivant=MODE_CHOIX_CLAVIER;
     int etat=ETAT_CHOIX_CLAVIER_INIT;
 
+	do {
+		switch (etat) {
+			case ETAT_CHOIX_CLAVIER_INIT;
+
+				stat_tab[STAT_CLAVIER_NB]=charger_item_etoile_fichier(clavier_tab, nom_fichier_liste_clavier);
+
+
+				if (stat_tab < 0) { //WHAT IN THE FUCK IN GOING ON
+					etat = ETAT_CHOIX_CLAVIER_FIN;
+				}
+				else {
+					etat = ETAT_CHOIX_CLAVIER_MAJ;
+				}
+				break;
+
+			case ETAT_CHOIX_CLAVIER_MAJ;
+
+				switch (key_type) {
+
+					case TOUCHE_ENTER;
+
+						etat = ETAT_CHOIX_CLAVIER_FIN;
+						break;
+					case TOUCHE_ESCAPE;
+
+						etat = ETAT_CHOIX_CLAVIER_FIN;
+						break
+				}
+				break;
+		}
+	} while (etat != ETAT_CHOIX_CLAVIER_FIN);
 
     return mode_suivant;
 }

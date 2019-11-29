@@ -65,12 +65,5 @@ int main() {
 	//return test_genere_texte_aleatoire();
 	//return test_charger_item_etoile_fichier();
 	return programme_principal();
+
 }
-
-
-
-
-
-
-
-

@@ -256,6 +256,7 @@ int test_charger_item_etoile_fichier() {
 
 	charger_item_etoile_fichier(item_tab, nomFichier);
 
+	system("pause");
 }
 /*
 ----------------------------------------------------------
