@@ -1,8 +1,14 @@
-﻿  dactylog.c
+﻿  gestion_modes.c
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(176,9): warning C4101: 'key_type': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(177,9): warning C4101: 'highlight': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(236,9): warning C4101: 'key_type': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(237,9): warning C4101: 'key_code': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(260,9): warning C4101: 'key_type': unreferenced local variable
+C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(263,10): warning C4101: 'theorie_tab': unreferenced local variable
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  1 of 22 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
+  0 of 22 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Dactylog.vcxproj -> C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Release\Dactylog.exe

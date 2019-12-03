@@ -53,8 +53,6 @@ int programme_principal(void)
 			case MODE_CHOIX_CLAVIER:
 				mode = choix_clavier(fenetre, clavier_tab, stat_tab, NOM_FICHIER_LISTE_CLAVIER);
 				break;
-
-
         }
     }while(!fin);
 

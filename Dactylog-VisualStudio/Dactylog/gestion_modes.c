@@ -84,9 +84,7 @@ int menu_principal(WINDOW* fenetre[],char menu_tab[][MAX_CAR],int nb_menu,char c
                 break;
         }
     }while(etat!=ETAT_MENU_PRINCIPAL_FIN);
-
     return mode_suivant;
-
 }
 
 /*

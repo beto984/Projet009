@@ -134,7 +134,7 @@ int test_genere_texte_aleatoire() {
 */
 void initialiser_tableau_entier(int tab[],int taille, int val){
 
-	printf("bobine");
+
 
 }
 
