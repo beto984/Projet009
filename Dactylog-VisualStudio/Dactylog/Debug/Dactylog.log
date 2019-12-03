@@ -1,0 +1,6 @@
+﻿  util.c
+\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(34,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(69,6): warning C4101: 'lm': unreferenced local variable
+\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(107,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(42): warning C4716: 'test_rand_entre': must return a value
+  Dactylog.vcxproj -> \\Mac\Home\Desktop\Dactylog-VisualStudio 2\Debug\Dactylog.exe
