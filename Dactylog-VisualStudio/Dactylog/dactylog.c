@@ -43,14 +43,16 @@ int programme_principal(void)
     // machine à état qui gère le passage d'un mode à l'autre (modes principaux)
     do{
         switch(mode){
-            case MODE_COMMENCER:
                 initialiser_tableau_entier(stat_tab,STAT_TAB_TAILLE,NONE);
                 initialiser_fenetre(fenetre);
                 mode=MODE_MENU_PRINCIPAL;
                 break;
-            case MODE_MENU_PRINCIPAL:
-				menu_principal(fenetre, menu_tab, nb_menu, clavier_tab, stat_tab);
-                break;
+			case MODE_MENU_PRINCIPAL:
+				mode = menu_principal(fenetre, menu_tab, nb_menu, clavier_tab, stat_tab);
+				break;
+			case MODE_CHOIX_CLAVIER:
+				mode = choix_clavier(fenetre, clavier_tab, stat_tab, NOM_FICHIER_LISTE_CLAVIER);
+				break;
         }
     }while(!fin);
 
