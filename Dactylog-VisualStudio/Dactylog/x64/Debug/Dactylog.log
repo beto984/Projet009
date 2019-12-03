@@ -1,18 +1,20 @@
-﻿  dactylog.c
+﻿  affichage_et_clavier.c
+  dactylog.c
   gestion_fichier.c
   gestion_modes.c
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(259,8): warning C4013: 'system' undefined; assuming extern returning int
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(178,9): warning C4101: 'key_type': unreferenced local variable
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(179,9): warning C4101: 'highlight': unreferenced local variable
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(238,9): warning C4101: 'key_type': unreferenced local variable
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(239,9): warning C4101: 'key_code': unreferenced local variable
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(262,9): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(259,8): warning C4013: 'system' undefined; assuming extern returning int
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(176,9): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(177,9): warning C4101: 'highlight': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(236,9): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(237,9): warning C4101: 'key_code': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(260,9): warning C4101: 'key_type': unreferenced local variable
+  gestion_statistiques.c
   util.c
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(265,10): warning C4101: 'theorie_tab': unreferenced local variable
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(34,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(69,6): warning C4101: 'lm': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(263,10): warning C4101: 'theorie_tab': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(34,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(69,6): warning C4101: 'lm': unreferenced local variable
   Generating Code...
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(107,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\util.c(42): warning C4716: 'test_rand_entre': must return a value
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(260): warning C4716: 'test_charger_item_etoile_fichier': must return a value
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(107,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(42): warning C4716: 'test_rand_entre': must return a value
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(260): warning C4716: 'test_charger_item_etoile_fichier': must return a value
 curses\addch.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

@@ -1,3 +1,21 @@
-﻿  dactylog.c
-C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Dactylog\dactylog.c(64,36): warning C4013: 'test_genere_texte_aleatoire' undefined; assuming extern returning int
-  Dactylog.vcxproj -> C:\Users\Simon\OneDrive - ETS\TCH 009 Informatique\Projet GitKraken\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe
+﻿  affichage_et_clavier.c
+  dactylog.c
+  gestion_fichier.c
+  gestion_modes.c
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(259,8): warning C4013: 'system' undefined; assuming extern returning int
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(176,9): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(177,9): warning C4101: 'highlight': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(236,9): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(237,9): warning C4101: 'key_code': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(260,9): warning C4101: 'key_type': unreferenced local variable
+  gestion_statistiques.c
+  util.c
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(263,10): warning C4101: 'theorie_tab': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(34,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(69,6): warning C4101: 'lm': unreferenced local variable
+  Generating Code...
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(107,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\util.c(42): warning C4716: 'test_rand_entre': must return a value
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(260): warning C4716: 'test_charger_item_etoile_fichier': must return a value
+  LINK : \\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe not found or not built by the last incremental link; performing full link
+  Dactylog.vcxproj -> \\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe
