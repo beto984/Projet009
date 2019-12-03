@@ -1,2 +1,9 @@
 .DS_Store
 .sln
+.suo.db
+.obj
+.tlog
+.exe
+.iobj
+.ipdb
+.pdb
