@@ -1,6 +1,6 @@
-// Module util
-// Contient l'ensemble des implémentations des fonctions
-// utilitaires générales
+ï»¿// Module util
+// Contient l'ensemble des implï¿½mentations des fonctions
+// utilitaires gï¿½nï¿½rales
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,21 +10,21 @@
 
 /*
 ----------------------------------------------------------
-    Fonction: rand_entre
-    En bref: obtenir une valeur aléatoire comprise entre deux bornes
-    Description:
-        Obtient une valeur entière aléatoire (rand) comprise entre une borne minimum (min)
-        et maximum (max). Les valeurs de bornes sont des tirages valides.
-    Paramètres:
-        -min: borne min
-        -max: borne max
-    Retour: la valeur aléatoire tirée
+	Fonction: rand_entre
+	En bref: obtenir une valeur alï¿½atoire comprise entre deux bornes
+	Description:
+		Obtient une valeur entiï¿½re alï¿½atoire (rand) comprise entre une borne minimum (min)
+		et maximum (max). Les valeurs de bornes sont des tirages valides.
+	Paramï¿½tres:
+		-min: borne min
+		-max: borne max
+	Retour: la valeur alï¿½atoire tirï¿½e
 ----------------------------------------------------------
 */
-int rand_entre(int min, int max){
+int rand_entre(int min, int max) {
 	int random;
 
-	random= (rand() % (max - min + 1)) + min;
+	random = (rand() % (max - min + 1)) + min;
 
 	return random;
 }
@@ -42,44 +42,44 @@ int test_rand_entre() {
 }
 /*
 ----------------------------------------------------------
-    Fonction: generer_texte_aleatoire
-    En bref: générer une ligne de texte aléatoire
-    Description:
-        Génère un ligne de texte aléatoirement en respectant certaines contraintes:
-        -les lettres utilisables sont tirées au hasard dans le tableau de lettres (l)
-        -la longueur des mots est aléatoire et comprise entre lmin et lmax
-        -les mots sont séparés par un caractère tiré au hasard du tableau de séparateurs (s)
-        Aucune vérification sur la validité des données initiales n'est faite (ex: nl<0). Si
-        ces données n'ont pas de sens, la fonction peut planter ou donner des résultats absurdes.
-    Paramètres:
-        -n: nombre total de lettres dans la ligne (longueur de la ligne à générer)
-        -t: tableau dans lequel les caractères aléatoires de la ligne sont placés
-        -l: tableau de lettres permises
-        -nl: nombre de lettre permises (taille du tableau l)
-        -s: tableau de séparateurs permis
-        -ns: nombre de séparateurs permis (taille du tableau s)
-        -lmin: longueur minimum d'un mot
-        -lmax: longueur maximum d'un mot
+	Fonction: generer_texte_aleatoire
+	En bref: gï¿½nï¿½rer une ligne de texte alï¿½atoire
+	Description:
+		Gï¿½nï¿½re un ligne de texte alï¿½atoirement en respectant certaines contraintes:
+		-les lettres utilisables sont tirï¿½es au hasard dans le tableau de lettres (l)
+		-la longueur des mots est alï¿½atoire et comprise entre lmin et lmax
+		-les mots sont sï¿½parï¿½s par un caractï¿½re tirï¿½ au hasard du tableau de sï¿½parateurs (s)
+		Aucune vï¿½rification sur la validitï¿½ des donnï¿½es initiales n'est faite (ex: nl<0). Si
+		ces donnï¿½es n'ont pas de sens, la fonction peut planter ou donner des rï¿½sultats absurdes.
+	Paramï¿½tres:
+		-n: nombre total de lettres dans la ligne (longueur de la ligne ï¿½ gï¿½nï¿½rer)
+		-t: tableau dans lequel les caractï¿½res alï¿½atoires de la ligne sont placï¿½s
+		-l: tableau de lettres permises
+		-nl: nombre de lettre permises (taille du tableau l)
+		-s: tableau de sï¿½parateurs permis
+		-ns: nombre de sï¿½parateurs permis (taille du tableau s)
+		-lmin: longueur minimum d'un mot
+		-lmax: longueur maximum d'un mot
 
-    Retour: renvoie le nombre de mot.
+	Retour: renvoie le nombre de mot.
 ----------------------------------------------------------
 */
 int generer_texte_aleatoire(int n, char t[], char l[], int nl, char s[], int ns, int lmin, int lmax) {
-	int i;      // itérateur
+	int i;      // itï¿½rateur
 	int lm;     // longueur du mot
 	int nm = 0;   // nombre de mot
 
 
-	// tire une longueur de mot aléatoire
+	// tire une longueur de mot alï¿½atoire
 
 	nm++;
 
 
 	for (i = 0; i < n; i++) {
 
-		// si toutes les lettres du mots ne sont pas placé
+		// si toutes les lettres du mots ne sont pas placï¿½
 
-			// ajoute une lettre aléatoire
+			// ajoute une lettre alï¿½atoire
 		int idx_alea = rand_entre(0, nl - 1);
 		t[i] = l[idx_alea];
 
@@ -121,20 +121,20 @@ int test_genere_texte_aleatoire() {
 }
 /*
 ----------------------------------------------------------
-    Fonction: initialiser_tableau_entier
-    En bref: remplir un tableau avec une valeur
-    Description:
-        Parcoure un tableau d'entier pour fixer tous les entiers à la même valeur
-    Paramètres:
-        -tab: le tableau à remplir
-        -taille: le nombre d'entier à écrire (taille du taleau tab)
-        -val: la valeur à écrire dans toutes les cases du tableau
-    Retour: aucun mais le tableau (tab) est modifié
+	Fonction: initialiser_tableau_entier
+	En bref: remplir un tableau avec une valeur
+	Description:
+		Parcoure un tableau d'entier pour fixer tous les entiers ï¿½ la mï¿½me valeur
+	Paramï¿½tres:
+		-tab: le tableau ï¿½ remplir
+		-taille: le nombre d'entier ï¿½ ï¿½crire (taille du taleau tab)
+		-val: la valeur ï¿½ ï¿½crire dans toutes les cases du tableau
+	Retour: aucun mais le tableau (tab) est modifiï¿½
 ----------------------------------------------------------
 */
-void initialiser_tableau_entier(int tab[],int taille, int val){
+void initialiser_tableau_entier(int tab[], int taille, int val) {
 
-
+	printf("bobine");
 
 }
 
