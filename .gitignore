@@ -1,6 +1,7 @@
 .DS_Store
 .sln
-.suo.db
+.suo
+.db
 .obj
 .tlog
 .exe
