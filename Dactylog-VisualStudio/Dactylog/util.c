@@ -132,9 +132,21 @@ int test_genere_texte_aleatoire() {
 	Retour: aucun mais le tableau (tab) est modifi�
 ----------------------------------------------------------
 */
-void initialiser_tableau_entier(int tab[], int taille, int val) {
+void initialiser_tableau_entier(int tab[], int taille, int val){
 
-	printf("bobine");
+	for (int i = 0; i < taille; ++i) {
+		tab[i] = val;
+		printf("case: %d   val: %d\n", i, tab[i]);
+	}
+}
+
+void test_initialiser_tableau_entier(){
+
+	int tab[15];
+
+	initialiser_tableau_entier(tab, 15, 5);
+
+	system("pause");
 
 }
 

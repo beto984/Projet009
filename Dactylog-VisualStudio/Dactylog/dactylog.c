@@ -64,6 +64,7 @@ int main() {
 	//return test_rand_entre();
 	//return test_genere_texte_aleatoire();
 	//return test_charger_item_etoile_fichier();
-	return programme_principal();
+	//return programme_principal();
+	return test_initialiser_tableau_entier();
 
 }
