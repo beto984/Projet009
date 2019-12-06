@@ -36,7 +36,7 @@
 int menu_principal(WINDOW* fenetre[], char menu_tab[][MAX_CAR], int nb_menu, char clavier_tab[][MAX_CAR], int stat_tab[]) {
 	int key_type;                             // type de touche reçue du clavier
 	int highlight;                          // position de l'item surligné
-	int mode_suivant = MODE_MENU_PRINCIPAL;   // mode suivant à appliqjer après le mode actuel
+	int mode_suivant = MODE_MENU_PRINCIPAL;   // mode suivant à appliquer après le mode actuel
 	int etat = ETAT_MENU_PRINCIPAL_INIT;      // état actuel
 	do {
 		switch (etat) {
@@ -108,8 +108,8 @@ int menu_principal(WINDOW* fenetre[], char menu_tab[][MAX_CAR], int nb_menu, cha
 */
 int choix_clavier(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], int stat_tab[], char nom_fichier_liste_clavier[]) {
 	int highlight;
-	int key_type;
-	int mode_suivant = MODE_CHOIX_CLAVIER;
+	int key_type = TOUCHE_FLECHE_BAS;
+	int mode_suivant = MODE_MENU_PRINCIPAL;
 	int etat = ETAT_CHOIX_CLAVIER_INIT;
 
 	do {
@@ -119,26 +119,31 @@ int choix_clavier(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], int stat_tab[]
 				stat_tab[STAT_CLAVIER_NB] = charger_item_etoile_fichier(clavier_tab, nom_fichier_liste_clavier);
 
 
-				if (stat_tab < 0) { //WHAT IN THE FUCK IN GOING ON
+				if (stat_tab[STAT_CLAVIER_NB] <= 0) { //WHAT IN THE FUCK IN GOING ON
+					afficher_message(fenetre, MSG_LECT_CLV_IMPOSSIBLE, MSG_TYPE_BAD);
 					etat = ETAT_CHOIX_CLAVIER_FIN;
 				}
 				else {
+					highlight = 0;
+					afficher_consignes(fenetre, TITRE_CHOIX_CLAVIER, MSG_NAV_MENU);
 					etat = ETAT_CHOIX_CLAVIER_MAJ;
 				}
 				break;
 
 				case ETAT_CHOIX_CLAVIER_MAJ:
+					afficher_menu(fenetre, clavier_tab, stat_tab[STAT_CLAVIER_NB], highlight);
 					capture_clavier(fenetre, &key_type);
+					clear_message(fenetre);
 					switch (key_type) {
 
 					case TOUCHE_ENTER:
 
-							etat = ETAT_CHOIX_CLAVIER_FIN;
-							break;
+						etat = ETAT_CHOIX_CLAVIER_FIN;
+						break;
 					case TOUCHE_ESCAPE:
 
-								etat = ETAT_CHOIX_CLAVIER_FIN;
-								break;
+						etat = ETAT_CHOIX_CLAVIER_FIN;
+						break;
 					}
 					break;
 		}

@@ -1,0 +1,22 @@
+﻿  affichage_et_clavier.c
+  dactylog.c
+  gestion_fichier.c
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\dactylog.c(68,40): warning C4013: 'test_initialiser_tableau_entier' undefined; assuming extern returning int
+  gestion_modes.c
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(259,8): warning C4013: 'system' undefined; assuming extern returning int
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(110,6): warning C4101: 'highlight': unreferenced local variable
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(169,6): warning C4101: 'key_type': unreferenced local variable
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(170,6): warning C4101: 'highlight': unreferenced local variable
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(229,6): warning C4101: 'key_type': unreferenced local variable
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(230,6): warning C4101: 'key_code': unreferenced local variable
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(253,6): warning C4101: 'key_type': unreferenced local variable
+  gestion_statistiques.c
+  util.c
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(256,7): warning C4101: 'theorie_tab': unreferenced local variable
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\util.c(34,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\util.c(69,6): warning C4101: 'lm': unreferenced local variable
+  Generating Code...
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\util.c(107,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\util.c(42): warning C4716: 'test_rand_entre': must return a value
+C:\Users\15142\Desktop\Devoir info\Projet009\Dactylog-VisualStudio\Dactylog\gestion_fichier.c(260): warning C4716: 'test_charger_item_etoile_fichier': must return a value
+curses\addch.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'
