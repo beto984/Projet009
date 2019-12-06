@@ -49,8 +49,11 @@ int programme_principal(void)
 			mode = MODE_MENU_PRINCIPAL;
 			break;
 		case MODE_MENU_PRINCIPAL:
-			menu_principal(fenetre, menu_tab, nb_menu, clavier_tab, stat_tab);
+			mode= menu_principal(fenetre, menu_tab, nb_menu, clavier_tab, stat_tab);
 			break;
+		case MODE_CHOIX_CLAVIER:
+			mode = choix_clavier(fenetre, clavier_tab, stat_tab, NOM_FICHIER_LISTE_CLAVIER);
+
 		}
 	} while (!fin);
 
