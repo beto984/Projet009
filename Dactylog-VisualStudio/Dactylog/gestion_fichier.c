@@ -220,7 +220,7 @@ int charger_item_etoile_fichier(char item_tab[][MAX_CAR], char* nomFichier) {
 	char tmp[MAX_CAR];  // chaine temporaire pour les lectures du fichier
 	int nb = -1;          // nombre de lignes charg�es dans le tableau
 	short fin = FAUX;    // indicateur d'atteinte de fin du fichier
-
+	int i = 0;
 
 	// ouvrir le fichier d'un clavier contenant les diff�rents exercices
 	file_ptr = fopen(nomFichier, "r");
@@ -235,7 +235,12 @@ int charger_item_etoile_fichier(char item_tab[][MAX_CAR], char* nomFichier) {
 	do {
 
 		if (fgets(tmp, MAX_CAR, file_ptr)) {
-			printf("%c\n", tmp[0]);
+			if (tmp[0] == '*') {
+				strcpy(item_tab[i], &tmp[1]);
+				i++;
+
+				nb = i;
+			}
 		}
 		else {
 			fin = VRAI;
@@ -249,15 +254,7 @@ int charger_item_etoile_fichier(char item_tab[][MAX_CAR], char* nomFichier) {
 	// renvoyer le nombre de lignes ajout�es au tableau
 	return  nb;
 }
-int test_charger_item_etoile_fichier() {
 
-	char item_tab[10][MAX_CAR];
-	char* nomFichier = "clavier.lst";
-
-	charger_item_etoile_fichier(item_tab, nomFichier);
-
-	system("pause");
-}
 /*
 ----------------------------------------------------------
 	Fonction: determiner_type_exercice

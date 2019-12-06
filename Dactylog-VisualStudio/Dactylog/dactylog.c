@@ -51,6 +51,9 @@ int programme_principal(void)
 		case MODE_MENU_PRINCIPAL:
 			mode= menu_principal(fenetre, menu_tab, nb_menu, clavier_tab, stat_tab);
 			break;
+		case MODE_QUITTER:
+			quitter_fenetre(fenetre);
+			fin=TRUE;
 		case MODE_CHOIX_CLAVIER:
 			mode = choix_clavier(fenetre, clavier_tab, stat_tab, NOM_FICHIER_LISTE_CLAVIER);
 
@@ -59,6 +62,15 @@ int programme_principal(void)
 
 	// fin du programme
 	return EXIT_SUCCESS;
+}
+int test_charger_item_etoile_fichier() {
+
+	char item_tab[10][MAX_CAR];
+	char* nomFichier = "clavier.lst";
+
+	charger_item_etoile_fichier(item_tab, nomFichier);
+
+	system("pause");
 }
 
 

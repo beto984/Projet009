@@ -144,8 +144,18 @@ int choix_clavier(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], int stat_tab[]
 
 						etat = ETAT_CHOIX_CLAVIER_FIN;
 						break;
+					case TOUCHE_FLECHE_HAUT:
+						if (highlight > 0) (highlight)--;
+						break;
+					case TOUCHE_FLECHE_BAS:
+						if (highlight < stat_tab[1] - 1) (highlight)++;
+						break;
+
 					}
 					break;
+
+
+
 		}
 	} while (etat != ETAT_CHOIX_CLAVIER_FIN);
 
