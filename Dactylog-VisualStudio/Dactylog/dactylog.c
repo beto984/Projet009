@@ -56,7 +56,10 @@ int programme_principal(void)
 			fin=TRUE;
 		case MODE_CHOIX_CLAVIER:
 			mode = choix_clavier(fenetre, clavier_tab, stat_tab, NOM_FICHIER_LISTE_CLAVIER);
-
+			break;
+		case MODE_CHOIX_EXERCICE:
+			mode = choix_exercice(fenetre, clavier_tab, exercice_tab, stat_tab);
+			break;
 		}
 	} while (!fin);
 

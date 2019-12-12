@@ -115,7 +115,6 @@ int choix_clavier(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], int stat_tab[]
 	do {
 		switch (etat) {
 			case ETAT_CHOIX_CLAVIER_INIT:
-
 				stat_tab[STAT_CLAVIER_NB] = charger_item_etoile_fichier(clavier_tab, nom_fichier_liste_clavier);
 
 
@@ -137,7 +136,7 @@ int choix_clavier(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], int stat_tab[]
 					switch (key_type) {
 
 					case TOUCHE_ENTER:
-
+						stat_tab[STAT_CLAVIER_NO]=highlight;
 						etat = ETAT_CHOIX_CLAVIER_FIN;
 						break;
 					case TOUCHE_ESCAPE:
@@ -183,9 +182,58 @@ int choix_clavier(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], int stat_tab[]
 int choix_exercice(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], char exercice_tab[][MAX_CAR], int stat_tab[]) {
 	int key_type;
 	int highlight;
-	int mode_suivant = MODE_CHOIX_EXERCICE;
+	int mode_suivant = MODE_MENU_PRINCIPAL;
 	int etat = ETAT_CHOIX_EXERCICE_INIT;
 
+	do
+	{
+		switch (etat)
+		{
+		case ETAT_CHOIX_EXERCICE_INIT:
+			if (stat_tab[STAT_CLAVIER_NO] == NONE) {
+				afficher_message(fenetre, MSG_CLAVIER_NON_DEFINI, MSG_TYPE_BAD);
+				etat = ETAT_CHOIX_EXERCICE_FIN;
+			}
+			else {
+				stat_tab[STAT_EXERCICE_NB] = charger_item_etoile_fichier(exercice_tab, clavier_tab[stat_tab[STAT_CLAVIER_NO]]);
+				if(stat_tab[STAT_EXERCICE_NB]<=0){
+					afficher_message(fenetre, MSG_LECT_EXE_IMPOSSIBLE, MSG_TYPE_BAD);
+					etat = ETAT_CHOIX_EXERCICE_FIN;
+				}
+				else {
+					highlight = 0;
+					afficher_consignes(fenetre, TITRE_CHOIX_EXERCICE, MSG_NAV_MENU);
+					etat = ETAT_CHOIX_EXERCICE_MAJ;
+				}
+
+			}
+			break;
+
+		case ETAT_CHOIX_EXERCICE_MAJ:
+			afficher_menu(fenetre, exercice_tab, stat_tab[STAT_EXERCICE_NB], highlight);
+			capture_clavier(fenetre, &key_type);
+			clear_message(fenetre);
+			switch (key_type) {
+
+			case TOUCHE_ENTER:
+
+				etat = ETAT_CHOIX_EXERCICE_FIN;
+				break;
+			case TOUCHE_ESCAPE:
+				etat = ETAT_CHOIX_EXERCICE_FIN;
+				break;
+			case TOUCHE_FLECHE_HAUT:
+				if (highlight > 0) (highlight)--;
+				break;
+			case TOUCHE_FLECHE_BAS:
+				if (highlight < stat_tab[STAT_EXERCICE_NB] - 1) (highlight)++;
+				break;
+
+			}
+			break;
+		}
+
+	} while (etat != ETAT_CHOIX_CLAVIER_FIN);
 	return mode_suivant;
 }
 

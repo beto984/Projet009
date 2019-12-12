@@ -1,6 +1,6 @@
-﻿  util.c
-\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(34,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(69,6): warning C4101: 'lm': unreferenced local variable
-\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(107,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-\\Mac\Home\Desktop\Dactylog-VisualStudio 2\Dactylog\util.c(42): warning C4716: 'test_rand_entre': must return a value
-  Dactylog.vcxproj -> \\Mac\Home\Desktop\Dactylog-VisualStudio 2\Debug\Dactylog.exe
+﻿  gestion_modes.c
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(292,6): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(293,6): warning C4101: 'key_code': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(316,6): warning C4101: 'key_type': unreferenced local variable
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(319,7): warning C4101: 'theorie_tab': unreferenced local variable
+  Dactylog.vcxproj -> \\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe
