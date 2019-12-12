@@ -216,7 +216,8 @@ int choix_exercice(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], char exercice
 			switch (key_type) {
 
 			case TOUCHE_ENTER:
-
+				stat_tab[STAT_EXERCICE_NO] = highlight;
+				mode_suivant = MODE_EXERCICE_SUIVANT;
 				etat = ETAT_CHOIX_EXERCICE_FIN;
 				break;
 			case TOUCHE_ESCAPE:
@@ -255,6 +256,17 @@ int choix_exercice(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], char exercice
 int exercice_suivant(WINDOW* fenetre[], char exercice_tab[][MAX_CAR], int stat_tab[]) {
 	int mode = MODE_EXERCICE_SUIVANT;
 
+	if (stat_tab[STAT_EXERCICE_NO] > stat_tab[STAT_EXERCICE_NB]) {
+		mode = MODE_MENU_PRINCIPAL;
+	}
+	else {
+		if (determiner_type_exercice(exercice_tab[stat_tab[STAT_EXERCICE_NO]])== EXERCICE_PRATIQUE) {
+			mode = MODE_EXERCICE_PRATIQUE;
+		}
+		else if (determiner_type_exercice(exercice_tab[stat_tab[STAT_EXERCICE_NO]]) == EXERCICE_THEORIQUE) {
+			mode = MODE_EXERCICE_THEORIQUE;
+		}
+	}
 	return mode;
 }
 
@@ -317,6 +329,7 @@ int exercice_theorique(WINDOW* fenetre[], char clavier_tab[][MAX_CAR], char exer
 	int mode_suivant = MODE_EXERCICE_THEORIQUE;
 	int etat = ETAT_EXERCICE_THEORIQUE_INIT;
 	char theorie_tab[MAX_LIGNE_THEORIE][MAX_CAR];   // tableau pour contenir les lignes de théorie d'un exercice
+
 
 
 	return mode_suivant;

@@ -60,7 +60,14 @@ int programme_principal(void)
 		case MODE_CHOIX_EXERCICE:
 			mode = choix_exercice(fenetre, clavier_tab, exercice_tab, stat_tab);
 			break;
+		case MODE_EXERCICE_SUIVANT:
+			mode = exercice_suivant(fenetre, exercice_tab, stat_tab);
+			break;
+		case MODE_EXERCICE_PRATIQUE:
+			mode = exercice_pratique(fenetre, clavier_tab, exercice_tab, stat_tab);
+			break;
 		}
+		
 	} while (!fin);
 
 	// fin du programme

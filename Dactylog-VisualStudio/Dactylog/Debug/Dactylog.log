@@ -1,6 +1,3 @@
-﻿  gestion_modes.c
-\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(292,6): warning C4101: 'key_type': unreferenced local variable
-\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(293,6): warning C4101: 'key_code': unreferenced local variable
-\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(316,6): warning C4101: 'key_type': unreferenced local variable
-\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\gestion_modes.c(319,7): warning C4101: 'theorie_tab': unreferenced local variable
+﻿  dactylog.c
+\\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Dactylog\dactylog.c(84): warning C4716: 'test_charger_item_etoile_fichier': must return a value
   Dactylog.vcxproj -> \\Mac\Home\Desktop\Projet009\Dactylog-VisualStudio\Debug\Dactylog.exe
