@@ -234,7 +234,7 @@ int charger_item_etoile_fichier(char item_tab[][MAX_CAR], char* nomFichier) {
 	// jusqu'� atteindre l'exercice voulu
 	do {
 
-		if (fgets(tmp, MAX_CAR, file_ptr)) {
+		if (fgets(tmp, MAX_CAR, file_ptr)) {q
 			if (tmp[0] == '*') {
 				strcpy(item_tab[i], &tmp[1]);
 				i++;

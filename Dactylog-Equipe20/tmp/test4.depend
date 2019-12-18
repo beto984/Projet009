@@ -1,0 +1,217 @@
+# depslib dependency file v1.0
+1571436325 source:c:\users\dmarche\desktop\test\test4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<wchar.h>
+	<time.h>
+	"curses.h"
+
+1549111040 c:\users\dmarche\desktop\test\test4\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572536236 source:c:\users\dmarche\desktop\test\clavardeur\main.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"curses.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1549111040 c:\users\dmarche\desktop\test\clavardeur\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572536014 c:\users\dmarche\desktop\test\clavardeur\util_affichage.h
+
+1572480912 c:\users\dmarche\desktop\test\clavardeur\util_statistiques.h
+
+1572479539 source:c:\users\dmarche\desktop\test\clavardeur\util_affichage.c
+	"curses.h"
+	"util_statistiques.h"
+	"util_affichage.h"
+	"util.h"
+	<string.h>
+
+1572396285 source:c:\users\dmarche\desktop\test\clavardeur\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572479499 c:\users\dmarche\desktop\test\clavardeur\util.h
+
+1572536018 c:\users\dmarche\desktop\test\clavardeur\util_fichier.h
+
+1572477346 source:c:\users\dmarche\desktop\test\clavardeur\util_fichier.c
+	<stdio.h>
+	<string.h>
+	"util_fichier.h"
+	"util.h"
+	"util_statistiques.h"
+
+1572480999 source:c:\users\dmarche\desktop\test\clavardeur\util_statistiques.c
+	"util_statistiques.h"
+	<time.h>
+
+1572546793 source:c:\users\dmarche\desktop\test\clavardeur\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572540326 c:\users\dmarche\desktop\test\clavardeur\gestion_modes.h
+
+1572536061 source:c:\users\dmarche\desktop\test\clavardeur\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1572546964 c:\users\dmarche\desktop\test\clavardeur\gestion_statistiques.h
+
+1572546964 c:\users\dmarche\desktop\test\clavardeur\affichage_et_clavier.h
+
+1572542472 source:c:\users\dmarche\desktop\test\clavardeur\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572536182 c:\users\dmarche\desktop\test\clavardeur\gestion_fichier.h
+
+1572536094 source:c:\users\dmarche\desktop\test\clavardeur\gestion_statistiques.c
+	"gestion_statistiques.h"
+	<time.h>
+
+1572632732 source:c:\users\dmarche\desktop\test\dactyloplus\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549111040 c:\users\dmarche\desktop\test\dactyloplus\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572635034 c:\users\dmarche\desktop\test\dactyloplus\gestion_statistiques.h
+
+1572632733 c:\users\dmarche\desktop\test\dactyloplus\affichage_et_clavier.h
+
+1572633210 c:\users\dmarche\desktop\test\dactyloplus\util.h
+
+1572636704 source:c:\users\dmarche\desktop\test\dactyloplus\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572636704 c:\users\dmarche\desktop\test\dactyloplus\gestion_fichier.h
+
+1572636704 source:c:\users\dmarche\desktop\test\dactyloplus\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572637837 c:\users\dmarche\desktop\test\dactyloplus\gestion_modes.h
+
+1572635034 source:c:\users\dmarche\desktop\test\dactyloplus\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1572536236 source:c:\users\dmarche\desktop\test\dactyloplus\main.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"curses.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572637552 source:c:\users\dmarche\desktop\test\dactyloplus\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572632732 source:c:\users\dmarche\desktop\test\dactylog\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549111040 c:\users\dmarche\desktop\test\dactylog\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572635034 c:\users\dmarche\desktop\test\dactylog\gestion_statistiques.h
+
+1572632733 c:\users\dmarche\desktop\test\dactylog\affichage_et_clavier.h
+
+1572633210 c:\users\dmarche\desktop\test\dactylog\util.h
+
+1572636704 source:c:\users\dmarche\desktop\test\dactylog\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572636704 c:\users\dmarche\desktop\test\dactylog\gestion_fichier.h
+
+1572637837 c:\users\dmarche\desktop\test\dactylog\gestion_modes.h
+
+1572635034 source:c:\users\dmarche\desktop\test\dactylog\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1572536236 source:c:\users\dmarche\desktop\test\dactylog\main.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"curses.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572637552 source:c:\users\dmarche\desktop\test\dactylog\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572639732 source:c:\users\dmarche\desktop\test\dactylog\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+

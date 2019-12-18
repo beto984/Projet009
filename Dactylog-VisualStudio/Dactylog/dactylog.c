@@ -66,6 +66,9 @@ int programme_principal(void)
 		case MODE_EXERCICE_PRATIQUE:
 			mode = exercice_pratique(fenetre, clavier_tab, exercice_tab, stat_tab);
 			break;
+		case MODE_EXERCICE_THEORIQUE:
+			mode = exercice_theorique(fenetre, clavier_tab, exercice_tab, stat_tab);
+			break;
 		}
 		
 	} while (!fin);

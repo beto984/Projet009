@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Dactylog" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="pdcurses/pdcurses.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="affichage_et_clavier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="affichage_et_clavier.h" />
+		<Unit filename="clavier.lst" />
+		<Unit filename="curses.h" />
+		<Unit filename="dactylog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestion_fichier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestion_fichier.h" />
+		<Unit filename="gestion_modes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestion_modes.h" />
+		<Unit filename="gestion_statistiques.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestion_statistiques.h" />
+		<Unit filename="keypad.clv" />
+		<Unit filename="qwerty.clv" />
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

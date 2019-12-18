@@ -1,0 +1,467 @@
+# depslib dependency file v1.0
+1572639941 source:c:\users\dmarche\desktop\test\dactylog\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549111040 c:\users\dmarche\desktop\test\dactylog\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572635034 c:\users\dmarche\desktop\test\dactylog\gestion_statistiques.h
+
+1572640458 c:\users\dmarche\desktop\test\dactylog\affichage_et_clavier.h
+	"curses.h"
+
+1572633210 c:\users\dmarche\desktop\test\dactylog\util.h
+
+1572639732 source:c:\users\dmarche\desktop\test\dactylog\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572636704 c:\users\dmarche\desktop\test\dactylog\gestion_fichier.h
+
+1572640161 source:c:\users\dmarche\desktop\test\dactylog\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572637837 c:\users\dmarche\desktop\test\dactylog\gestion_modes.h
+
+1572635034 source:c:\users\dmarche\desktop\test\dactylog\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1572637552 source:c:\users\dmarche\desktop\test\dactylog\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572640476 source:c:\users\dmarche\desktop\test\dactylog\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572639247 source:h:\mon drive\ets\tch009\devoir\dactylog\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549107440 h:\mon drive\ets\tch009\devoir\dactylog\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572631434 h:\mon drive\ets\tch009\devoir\dactylog\gestion_statistiques.h
+
+1572636858 h:\mon drive\ets\tch009\devoir\dactylog\affichage_et_clavier.h
+	"curses.h"
+
+1572629610 h:\mon drive\ets\tch009\devoir\dactylog\util.h
+
+1572636876 source:h:\mon drive\ets\tch009\devoir\dactylog\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572633104 h:\mon drive\ets\tch009\devoir\dactylog\gestion_fichier.h
+
+1572634237 h:\mon drive\ets\tch009\devoir\dactylog\gestion_modes.h
+
+1572636132 source:h:\mon drive\ets\tch009\devoir\dactylog\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572636561 source:h:\mon drive\ets\tch009\devoir\dactylog\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572633952 source:h:\mon drive\ets\tch009\devoir\dactylog\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572639247 source:h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549107440 h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572631434 h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\gestion_statistiques.h
+
+1572636858 h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\affichage_et_clavier.h
+	"curses.h"
+
+1572629610 h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\util.h
+
+1572636132 source:h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572633104 h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\gestion_fichier.h
+
+1572636561 source:h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572634237 h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\gestion_modes.h
+
+1572639711 source:h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1572633952 source:h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572900514 source:h:\mon drive\ets\tch009\devoir\dactylog - codeblocks\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572642847 source:c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549107440 c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572635034 c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\gestion_statistiques.h
+
+1572640458 c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\affichage_et_clavier.h
+	"curses.h"
+
+1572633210 c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\util.h
+
+1572900526 source:c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572636704 c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\gestion_fichier.h
+
+1572637837 c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\gestion_modes.h
+
+1572639732 source:c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572640161 source:c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572643311 source:c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1572637552 source:c:\users\dmarche\desktop\dactylog\dactylog - codeblocks\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572969187 source:c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1549107440 c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572635034 c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\gestion_statistiques.h
+
+1572640458 c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\affichage_et_clavier.h
+	"curses.h"
+
+1572633210 c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\util.h
+
+1572978166 source:c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1572636704 c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\gestion_fichier.h
+
+1572977396 source:c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\gestion_modes.c
+	<string.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572637837 c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\gestion_modes.h
+
+1572977797 source:c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1572977843 source:c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572976481 source:c:\users\dmarche\desktop\dactylog\projetsfournis\dactylog - codeblocks\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572973312 source:c:\users\zero\desktop\dactylog-codeblocks\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1572973314 c:\users\zero\desktop\dactylog-codeblocks\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572973330 c:\users\zero\desktop\dactylog-codeblocks\gestion_statistiques.h
+
+1572973314 c:\users\zero\desktop\dactylog-codeblocks\affichage_et_clavier.h
+	"curses.h"
+
+1572973332 c:\users\zero\desktop\dactylog-codeblocks\util.h
+
+1575691362 source:c:\users\zero\desktop\dactylog-codeblocks\gestion_modes.c
+	<string.h>
+	<time.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1572973324 c:\users\zero\desktop\dactylog-codeblocks\gestion_fichier.h
+
+1572973332 c:\users\zero\desktop\dactylog-codeblocks\gestion_modes.h
+
+1572973328 source:c:\users\zero\desktop\dactylog-codeblocks\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1575475333 source:c:\users\zero\desktop\dactylog-codeblocks\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1575479580 source:c:\users\zero\desktop\dactylog-codeblocks\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1575691157 source:c:\users\zero\desktop\dactylog-codeblocks\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572973312 source:\\mac\home\desktop\dactylog-codeblocks\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1572973314 \\mac\home\desktop\dactylog-codeblocks\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572973330 \\mac\home\desktop\dactylog-codeblocks\gestion_statistiques.h
+
+1572973314 \\mac\home\desktop\dactylog-codeblocks\affichage_et_clavier.h
+	"curses.h"
+
+1572973332 \\mac\home\desktop\dactylog-codeblocks\util.h
+
+1575691158 source:\\mac\home\desktop\dactylog-codeblocks\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572973324 \\mac\home\desktop\dactylog-codeblocks\gestion_fichier.h
+
+1572973332 \\mac\home\desktop\dactylog-codeblocks\gestion_modes.h
+
+1575475334 source:\\mac\home\desktop\dactylog-codeblocks\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1576520578 source:\\mac\home\desktop\dactylog-codeblocks\gestion_modes.c
+	<string.h>
+	<time.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+
+1576456364 source:\\mac\home\desktop\dactylog-codeblocks\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1575479582 source:\\mac\home\desktop\dactylog-codeblocks\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1572973312 source:\\mac\home\desktop\dactylog-equipe20\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1572973314 \\mac\home\desktop\dactylog-equipe20\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572973330 \\mac\home\desktop\dactylog-equipe20\gestion_statistiques.h
+
+1572973314 \\mac\home\desktop\dactylog-equipe20\affichage_et_clavier.h
+	"curses.h"
+
+1572973332 \\mac\home\desktop\dactylog-equipe20\util.h
+
+1575691158 source:\\mac\home\desktop\dactylog-equipe20\dactylog.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+	"affichage_et_clavier.h"
+	"gestion_statistiques.h"
+	"gestion_fichier.h"
+	"gestion_modes.h"
+
+1572973324 \\mac\home\desktop\dactylog-equipe20\gestion_fichier.h
+
+1572973332 \\mac\home\desktop\dactylog-equipe20\gestion_modes.h
+
+1576456364 source:\\mac\home\desktop\dactylog-equipe20\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
+1576532612 source:\\mac\home\desktop\dactylog-equipe20\gestion_fichier.c
+	<stdio.h>
+	<string.h>
+	"gestion_fichier.h"
+	"util.h"
+	"gestion_statistiques.h"
+
+1576532502 source:\\mac\home\desktop\dactylog-equipe20\gestion_modes.c
+	<string.h>
+	<time.h>
+	"curses.h"
+	"gestion_fichier.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	"gestion_modes.h"
+

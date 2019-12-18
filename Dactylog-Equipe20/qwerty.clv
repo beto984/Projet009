@@ -1,0 +1,265 @@
+
+# fichier définissant les exercices pour un clavier QWERTY Anglais (Etats-Unis)
+# les lignes commencant par # sont ignorées
+# les lignes commencant par * marque le début d'un exercice
+# les lignes commencant par un espaces sont ignorées
+# Il faut donc éviter * ou # ou <espace> au début d'une ligne avec des données utiles
+
+#------------------------------------------------------------------
+
+*EXERCICE 0: Configuration du clavier - theorie
+Le clavier doit etre configure en mode Anglais(Etats-Unis)
+
+#------------------------------------------------------------------
+
+*EXERCICE 1: Barre d'espace - theorie
+La barre d'espace est actionnee avec le pouce droit ou gauche
+
+*EXERCICE 2: lettres fj - theorie
+Placer l'index de la main gauche sur la touche F
+#ceci est un commentaire
+Placer l'index de la main droite sur la touche J 
+
+#------------------------------------------------------------------
+
+*EXERCICE 3: lettres fj - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+2:fj
+
+#------------------------------------------------------------------
+
+*EXERCICE 4: lettres fjdk - theorie
+Placer le majeur de la main gauche sur la touche D
+Placer le majeur de la main droite sur la touche K
+  
+*EXERCICE 5: lettres fjdk - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+4:fjdk
+
+#------------------------------------------------------------------
+
+*EXERCICE 6: lettres fjdksl - theorie
+Placer l'annulaire de la main gauche sur la touche S
+Placer l'annulaire de la main droite sur la touche L
+
+*EXERCICE 7: lettres fjdksl - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+6:fjdksl
+
+#------------------------------------------------------------------
+
+*EXERCICE 8: lettres fjdksla; - theorie
+Placer l'auriculaire de la main gauche sur la touche A
+Placer l'auriculaire de la main droite sur la touche ;
+
+*EXERCICE 9: lettres fjdksla; - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+8:fjdksla;
+
+#------------------------------------------------------------------
+
+*EXERCICE 10: lettres fjdksla;ru - theorie
+L'index de la main gauche se deplace pour atteindre la touche R
+L'index de la main droite se deplace pour atteindre la touche U
+
+*EXERCICE 11: lettres fjdksla;ru - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+10:fjdksla;ru
+
+#------------------------------------------------------------------
+
+*EXERCICE 12: lettres fjdksla;ruei - theorie
+Le majeur de la main gauche se deplace pour atteindre la touche E
+Le majeur de la main droite se deplace pour atteindre la touche I
+
+*EXERCICE 13: lettres fjdksla;ruei - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+12:fjdksla;ruei
+
+#------------------------------------------------------------------
+
+*EXERCICE 14: lettres fjdksla;rueity - theorie
+L'index de la main gauche se deplace pour atteindre la touche T
+L'index de la main droite se deplace pour atteindre la touche Y
+
+*EXERCICE 15: lettres fjdksla;rueity - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+14:fjdksla;rueity
+
+#------------------------------------------------------------------
+
+*EXERCICE 16: lettres fjdksla;rueitygh - theorie
+L'index de la main gauche se deplace pour atteindre la touche G
+L'index de la main droite se deplace pour atteindre la touche H
+
+*EXERCICE 17: lettres fjdksla;rueitygh - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+16:fjdksla;rueitygh
+
+#------------------------------------------------------------------
+
+*EXERCICE 18: lettres fjdksla;rueityghwo - theorie
+L'annulaire de la main gauche se deplace pour atteindre la touche W
+L'annulaire de la main droite se deplace pour atteindre la touche O
+
+*EXERCICE 19: lettres fjdksla;rueityghwo - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+18:fjdksla;rueityghwo
+
+#------------------------------------------------------------------
+
+*EXERCICE 20: lettres fjdksla;rueityghwoqp - theorie
+L'auriculaire de la main gauche se deplace pour atteindre la touche Q
+L'auriculaire de la main droite se deplace pour atteindre la touche P
+
+*EXERCICE 21: lettres fjdksla;rueityghwoqp - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+20:fjdksla;rueityghwoqp
+
+#------------------------------------------------------------------
+
+*EXERCICE 22: lettres fjdksla;rueityghwoqpbn - theorie
+L'index de la main gauche se deplace pour atteindre la touche B
+L'index de la main droite se deplace pour atteindre la touche N
+
+*EXERCICE 23: lettres fjdksla;rueityghwoqpbn - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+22:fjdksla;rueityghwoqpbn
+
+#------------------------------------------------------------------
+
+*EXERCICE 24: lettres fjdksla;rueityghwoqpbnvm - theorie
+L'index de la main gauche se deplace pour atteindre la touche V
+L'index de la main droite se deplace pour atteindre la touche M
+
+*EXERCICE 25: lettres fjdksla;rueityghwoqpbnvm - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+24:fjdksla;rueityghwoqpbnvm
+
+#------------------------------------------------------------------
+
+*EXERCICE 26: lettres fjdksla;rueityghwoqpbnvmc, - theorie
+Le majeur de la main gauche se deplace pour atteindre la touche C
+Le majeur de la main droite se deplace pour atteindre la touche ,
+
+*EXERCICE 27: lettres fjdksla;rueityghwoqpbnvmc, - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+26:fjdksla;rueityghwoqpbnvmc,
+
+#------------------------------------------------------------------
+
+*EXERCICE 28: lettres fjdksla;rueityghwoqpbnvmc,x. - theorie
+L'annulaire de la main gauche se deplace pour atteindre la touche X
+L'annulaire de la main droite se deplace pour atteindre la touche .
+
+*EXERCICE 29: lettres fjdksla;rueityghwoqpbnvmc,x. - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+28:fjdksla;rueityghwoqpbnvmc,x.
+
+#------------------------------------------------------------------
+
+*EXERCICE 30: lettres fjdksla;rueityghwoqpbnvmc,x.z/ - theorie
+L'auriculaire de la main gauche se deplace pour atteindre la touche Z
+L'auriculaire de la main droite se deplace pour atteindre la touche /
+
+*EXERCICE 31: lettres fjdksla;rueityghwoqpbnvmc,x.z/ - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+30:fjdksla;rueityghwoqpbnvmc,x.z/
+
+#------------------------------------------------------------------
+
+*EXERCICE 32: Lettres Majuscules FJDKSLARUEITYGHWOQPBNVMCXZ - theorie
+L'auriculaire de la main gauche enfonce le <SHIFT> quand la main droite tape une lettre
+L'auriculaire de la main droite enfonce le <SHIFT> quand la main gauche tape une lettre
+
+*EXERCICE 33: Lettres Majuscules FJDKSLARUEITYGHWOQPBNVMCXZ - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+26:FJDKSLARUEITYGHWOQPBNVMCXZ
+
+#------------------------------------------------------------------
+
+*EXERCICE 34: Min./Maj. fjdkslarueityghwoqpbnvmcxzFJDKSLARUEITYGHWOQPBNVMCXZ - theorie
+L'auriculaire de la main gauche enfonce le <SHIFT> quand la main droite tape une lettre
+L'auriculaire de la main droite enfonce le <SHIFT> quand la main gauche tape une lettre
+
+*EXERCICE 35: Min./Maj. fjdkslarueityghwoqpbnvmcxzFJDKSLARUEITYGHWOQPBNVMCXZ - pratique
+#lettres par mot
+2-5
+#séparateur de mot	
+1: 
+#lettres 
+52:fjdkslarueityghwoqpbnvmcxzFJDKSLARUEITYGHWOQPBNVMCXZ
+
+#------------------------------------------------------------------
+
+*EXERCICE 36: conclusion - theorie
+Bravo! Vous avez complete tous les niveaux du clavier QWERTY Anglais(Etats-Unis) !
+
+##	Fin du fichier
+
+
+
