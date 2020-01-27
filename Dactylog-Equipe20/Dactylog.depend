@@ -465,3 +465,28 @@
 	"util.h"
 	"gestion_modes.h"
 
+1572973312 source:\\mac\home\desktop\projet009\dactylog-equipe20\affichage_et_clavier.c
+	"curses.h"
+	"gestion_statistiques.h"
+	"affichage_et_clavier.h"
+	"util.h"
+	<string.h>
+
+1572973314 \\mac\home\desktop\projet009\dactylog-equipe20\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1572973330 \\mac\home\desktop\projet009\dactylog-equipe20\gestion_statistiques.h
+
+1572973314 \\mac\home\desktop\projet009\dactylog-equipe20\affichage_et_clavier.h
+	"curses.h"
+
+1572973332 \\mac\home\desktop\projet009\dactylog-equipe20\util.h
+
+1576456364 source:\\mac\home\desktop\projet009\dactylog-equipe20\gestion_statistiques.c
+	<time.h>
+	"gestion_statistiques.h"
+
